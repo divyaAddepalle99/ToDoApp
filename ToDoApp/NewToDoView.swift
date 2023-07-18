@@ -20,9 +20,11 @@ struct NewToDoView: View {
             Toggle(isOn: $isImportant){
                 Text("Is it Important?")
                 Button(action: {
+//                    Spacer ()
                     
                 }) {
                     Text("Add")
+                    Spacer ()
                 }.padding ()
             }
         }.padding ()
